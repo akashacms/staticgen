@@ -12,7 +12,7 @@ AkashaCMS is a simple but powerful static website generator using Node.js.  It h
 
 The system was initially designed to build general-purpose websites using any navigational hierarchy you desire.  Eventually this was extended, and AkashaCMS now supports blogging, can potentially support podcasting, and can even be used to build electronic books (supporting the EPUB3 format).
 
-It is easily extended by "plugins" that are easy to implement.  AkashaCMS was designed so every template can be easily overridden, so a website can customize its appearance precisely.
+It is easily extended by "plugins" that are easy to implement.  They're simply a Node.js module with a few simple-to-implement attributes.  AkashaCMS was designed so every template can be easily overridden, so a website can customize its appearance precisely.
 
 The initial idea in developing AkashaCMS was to avoid the overhead of a dynamic CMS that rebuilds every page on every page view.  Systems like Drupal are very powerful, but even when you turn on full caching support the server resources required to support a modestly popular website are significant.  
 
