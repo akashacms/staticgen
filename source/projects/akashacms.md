@@ -12,11 +12,10 @@ AkashaCMS is a simple but powerful static website generator using Node.js.  It h
 
 The system was initially designed to build general-purpose websites using any navigational hierarchy you desire.  Eventually this was extended, and AkashaCMS now supports blogging, can potentially support podcasting, and can even be used to build electronic books (supporting the EPUB3 format).
 
+It is easily extended by "plugins" that are easy to implement.  AkashaCMS was designed so every template can be easily overridden, so a website can customize its appearance precisely.
 
-Cactus is based on the idea that most dynamicness on websites these days can be done using Javascript while the actual site can stay static. Static websites are easy to host and typically very fast.
+The initial idea in developing AkashaCMS was to avoid the overhead of a dynamic CMS that rebuilds every page on every page view.  Systems like Drupal are very powerful, but even when you turn on full caching support the server resources required to support a modestly popular website are significant.  
 
-I developed Cactus because I wanted a standard, easy system that designers at [Sofa](http://www.madebysofa.com) could use to build and deploy fast websites. So typical users would be designers that are tech-savvy, want to use templates, but don't like to mess with setting up django or S3.
+There are plenty of potential website publishers whose needs are modest.  The modern Internet dictates that all websites must now use HTML5, CSS3 and responsive web design techniques.  AkashaCMS embraces that model, while sticking with static HTML as the result.
 
-Since then it has evolved quite a bit with a plugin system that supports blogging, spriting, versioning and is extensible.
-
-You can find more discussion about static site generators in this [Hacker News discussion](http://news.ycombinator.com/item?id=2233620).
+Static websites are easy to host and typically very fast.
