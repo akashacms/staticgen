@@ -8,7 +8,7 @@ templates: EJS, jQuery
 description: Static site generator written in Node.js, utilizing server-side jQuery during page rendering
 ---
 
-AkashaCMS is a simple but powerful static website generator using Node.js.  It has a flexible system of chained template pages and "partials" to make it easy to develop any page layout desired.  During page rendering the page DOM can be manipulated with jQuery functions, allowing even more flexibility.  With AkashaCMS, it's easy to develop and preview a website locally, then deploy your site to a webserver.  
+[AkashaCMS](http://akashacms.com/) is a simple but powerful static website generator using Node.js.  It has a flexible system of chained template pages and "partials" to make it easy to develop any page layout desired.  During page rendering the page DOM can be manipulated with jQuery functions, allowing even more flexibility.  With AkashaCMS, it's easy to develop and preview a website locally, then deploy your site to a webserver.  
 
 The system was initially designed to build general-purpose websites using any navigational hierarchy you desire.  Eventually this was extended, and AkashaCMS now supports blogging, can potentially support podcasting, and can even be used to build electronic books (supporting the EPUB3 format).
 
